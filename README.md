@@ -1,5 +1,5 @@
 # **************** Kyewords ****************
-1. **Hybric could** 
+1. **Hybrid could** 
     - AWS constitute bridge between your on-premise invironment and AWS.
     - Part of your infrastructure is on the cloud
 ###
@@ -13,3 +13,9 @@
 ### 
 4. **API**
     - Application Programming Interface. It is a set of rules and protocols that allows different software applications to communicate with each other.
+###
+4. **CNI**
+   - Container Network Interface (CNI) is a framework for dynamically configuring networking resources.
+###
+5. **Network overlay**
+   - An overlay network is a virtual or logical network that is created on top of an existing physical network. it bypass the exsiting network.
