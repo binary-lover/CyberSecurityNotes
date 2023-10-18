@@ -86,3 +86,25 @@
     - L3 - IP Address (32 Bits) : Router
     - L2 - Hardware Address - NIC, MAC Address (48 Bits) : Ethernet (eth0)
     - L1 - Digital (1 and 0)
+###
+20. **Switch** - connects devices in a network to each other, enabling them to talk by exchanging data packets.
+###
+21. **FPGA** - Field Programmable Gate Arrays  - Configurede after manufacturing
+###
+22. **Socket** - Software structure within a network node of a computer network that serves as an endpoint for sending and receiving data across the network
+###
+23. **TCP** - Transmission Control Protocol (TCP) is a standard that defines how to establish and maintain a network conversation by which applications can exchange data
+###
+24. **MAC Address** - Media Access Control address is a unique identifier assigned for use as a network address in communications within a network segment.
+###
+25. **Protocol**- It is a standardized set of rules for formatting and processing data.
+###
+26. **Firmware** - It is a microcode or program that is embedded into the memory of hardware devices to help them operate
+###
+27. **TLS** - Transport Layer Security encrypts data sent over the Internet : Version 1.3
+###
+28. **Cache** - a cache is a high-speed data storage layer which stores a subset of data (temporary mermory)
+###
+29. Von Neuman Architecture **VS** Harvard Architecture 
+
+![MergedImages](https://github.com/mohitpoonia/mohitpoonia/assets/142895350/0c89419c-74ba-4024-94e4-f751d391bb8d)
