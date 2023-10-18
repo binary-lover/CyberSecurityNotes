@@ -1,5 +1,6 @@
 # **************** Kyewords ****************
 1. **Hybric cloud** 
+
     - AWS constitute bridge between your on-premise invironment and AWS.
     - Part of your infrastructure is on the cloud
 ###
@@ -63,10 +64,25 @@
         - Eg: KVM(Kernel-based virtual machine)
     - Type 2: Installed over a host OS
         - Eg: VMware(closed source), Virtual Box(open source)
-
+###
 16. **Virtual Machine :** A virtual machine (VM) is a digital version of a physical computer. It's a computer file, typically called an image, that behaves like an actual computer. VMs can be implemented using specialized hardware, software, or a combination of the two. 
     - Examples of VMs include:
         - VMware Workstation
         - Oracle VirtualBox
         - Oracle Secure Global Desktop
 ###
+17. **oVirt :** oVert is a free, open souse virtualization management platform. It was founded by Red Hat as community project on which Red Hat Virtualization is based. For managing the virtual machine.
+###
+18. **Plugin :** 
+    - A plugin is a software compnent that adds specific functionality to an existing computer program or web browser.
+    - Plugins are designed to extend the capabilities of the host application without requiring any changes to its core code.
+    - Eg. Adobe Flash Player, Java vm, QuickTheme etc.
+###
+19. **Server Layers Of OSI (Open Systems Interconeciton) :**
+    - L7 - Application
+    - L6 - Presentation
+    - L5 - Cryptography
+    - L4 - Port Number(16 bit)
+    - L3 - IP Address (32 Bits) : Router
+    - L2 - Hardware Address - NIC, MAC Address (48 Bits) : Ethernet (eth0)
+    - L1 - Digital (1 and 0)
