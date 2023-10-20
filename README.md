@@ -127,3 +127,8 @@
 ###
 34. **nginx** - NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more.
 ###
+35. **Relational Databases :** The data is stored in tabular form just like table in privious to privious keyword.
+    - looks like Excel spreadsheets, with links between them!
+    - Eg. SQL
+###
+36. 
