@@ -129,6 +129,12 @@
 ###
 35. **Relational Databases :** The data is stored in tabular form just like table in privious to privious keyword.
     - looks like Excel spreadsheets, with links between them!
-    - Eg. SQL
+    - RDS stads for Relational Database SErvice
+    - Its a managed DB service for DB use SQL as a Query Language
+    - Eg. SQL, Posteres, MariaDB, Orele, Microsoft Server, Aurora (AWS).
 ###
-36. 
+36. **Aurora**
+    - Aurora is a proprietary technology from AWS (not open sourced)
+    - PostgreSQL and MySQL are both supported as Aurora DB
+    - Aurora storage automatically  grows in increments of 10GB up to 128 TB.
+    
