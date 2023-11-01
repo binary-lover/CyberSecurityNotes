@@ -155,4 +155,4 @@
 ###
 43. **Reverse engineering :** - The process of taking a piece of software or hardware and analyzing its functions and information flow so that its functionality and behavior can be understood.
 ###
-44. 
+44. **Bash :** - Bourne-again shell, is a command-line shell and scripting language used on Linux, macOS, and other Unix-like operating systems
