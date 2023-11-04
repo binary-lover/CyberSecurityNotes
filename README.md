@@ -156,3 +156,10 @@
 43. **Reverse engineering :** - The process of taking a piece of software or hardware and analyzing its functions and information flow so that its functionality and behavior can be understood.
 ###
 44. **Bash :** - Bourne-again shell, is a command-line shell and scripting language used on Linux, macOS, and other Unix-like operating systems
+###
+45. **Vulnerablity :** - A vulnerability is a weakness that can be exploited by cybercriminals to gain unauthorized access to a computer system.
+###
+46. **Bind Shell :** - when we try to connect to vulnerable system through its random port
+47. **Reverse Shell :** - When vunerable machine tries to connect with us
+###
+48. 
