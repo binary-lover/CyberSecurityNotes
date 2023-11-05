@@ -137,4 +137,32 @@
     - Aurora is a proprietary technology from AWS (not open sourced)
     - PostgreSQL and MySQL are both supported as Aurora DB
     - Aurora storage automatically  grows in increments of 10GB up to 128 TB.
-    
+###
+37. **MX record :** - A DNS 'mail exchange' (MX) record directs email to a mail server. The MX record indicates how email messages should be routed in accordance with the Simple Mail Transfer Protocol (SMTP, the standard protocol for all email.
+###
+38. **AXFR :** - AXFR(global Asynchronous Transfer Full Range) is a protocol for “zone transfers” for replication of DNS data across multiple DNS servers. Unlike normal DNS queries that require the user to know some DNS information ahead of time, AXFR queries reveal resource records including subdomain names.
+###
+39. **Reverse lookup :** - In computer networks, a reverse DNS lookup or reverse DNS resolution (rDNS) is the querying technique of the Domain Name System (DNS) to determine the domain name associated with an IP address – the reverse of the usual "forward" DNS lookup of an IP address from a domain name.
+###
+40. **Brute force  :** - A brute-force attack is a trial-and-error method used by application programs to decode login information and encryption keys to use them to gain unauthorized access to systems.
+###
+41. **Subdomain :** - a subdomain is a separate part of your website that operates under the same primary domain name.
+###
+42. **Network Classes :**
+    - Class A: 10.0.0.0 to 10.255.255.255
+    - Class B: 172.16.0.0 to 172.31.255.255
+    - Class C: 192.168.0.0 to 192.168.255.255
+###
+43. **Reverse engineering :** - The process of taking a piece of software or hardware and analyzing its functions and information flow so that its functionality and behavior can be understood.
+###
+44. **Bash :** - Bourne-again shell, is a command-line shell and scripting language used on Linux, macOS, and other Unix-like operating systems
+###
+45. **Vulnerablity :** - A vulnerability is a weakness that can be exploited by cybercriminals to gain unauthorized access to a computer system.
+###
+46. **Bind Shell :** - when we try to connect to vulnerable system through its random port
+47. **Reverse Shell :** - When vunerable machine tries to connect with us
+### 
+48. **Traffic smugling**
+49. **Native Windows API**
+50. **White listed domain abuse**
+51. ****
