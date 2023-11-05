@@ -161,8 +161,13 @@
 ###
 46. **Bind Shell :** - when we try to connect to vulnerable system through its random port
 47. **Reverse Shell :** - When vunerable machine tries to connect with us
+<<<<<<< HEAD
 ### 
 48. **Traffic smugling**
 49. **Native Windows API**
 50. **White listed domain abuse**
 51. ****
+=======
+###
+48. 
+>>>>>>> a2f9c5476c872811c961c3e6fc25a601c5203cb3
