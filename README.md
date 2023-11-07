@@ -162,6 +162,12 @@
 46. **Bind Shell :** - when we try to connect to vulnerable system through its random port
 47. **Reverse Shell :** - When vunerable machine tries to connect 
 ### 
+
 48. **Traffic smugling**
 49. **Native Windows API**
 50. **White listed domain abuse**
+###
+51. **CAP Theorem :** - Consistencey, Availablity, Partition tolerence
+    - it is immposibble to distribute system to simultaneouslyprovide more than two of the three of the guarantees.
+###
+52. **ASIe's :** - Applicaton Service Integrated Sercuit, use for bitcoin mining.
