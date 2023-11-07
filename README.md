@@ -170,4 +170,4 @@
 51. **CAP Theorem :** - Consistencey, Availablity, Partition tolerence
     - it is immposibble to distribute system to simultaneouslyprovide more than two of the three of the guarantees.
 ###
-52. **ASIe's :** - Applicaton Service Integrated Sercuit, use for bitcoin mining.
+52. **ASIc :** - Applicaton Service Integrated Sercuit, use for bitcoin mining.
