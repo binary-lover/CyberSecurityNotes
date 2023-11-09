@@ -1,3 +1,6 @@
+
+<img align = "center" src = "https://assets-global.website-files.com/5b6df8bb681f89c158b48f6b/5ce426d9a4a48f75aee6f062_what-is-a-computer-network-p-800.jpeg">
+
 <h1 align = center> ***** Keywords *****</h1>
 
 1. **Hybric cloud** 
@@ -142,7 +145,7 @@
 ###
 31. **VPN** - It establishes a digital connection between your computer and a remote server owned by a VPN provider, creating a point-to-point tunnel that encrypts your personal data, masks your IP address, and lets you sidestep website blocks and firewalls on the internet.
 ###
-32. **Cryptography** - It is the practice and study of techniques for secure communication in the presence of adversarial behavior. It is about constructing and analyzing protocols that prevent third parties or the public from reading private messages. 
+32. **Cryptography** - It is the practice and study of techn<img align = "centre" src = "https://assets-global.website-files.com/5b6df8bb681f89c158b48f6b/5ce426d9a4a48f75aee6f062_what-is-a-computer-network-p-800.jpeg">iques for secure communication in the presence of adversarial behavior. It is about constructing and analyzing protocols that prevent third parties or the public from reading private messages. 
 ###
 33. **Hypervisor** - It is a type of computer software, firmware or hardware that creates and runs virtual machines.
 
