@@ -1,4 +1,5 @@
-# **************** Kyewords ****************
+<h1 align = center> ***** Keywords *****</h1>
+
 1. **Hybric cloud** 
 
     - AWS constitute bridge between your on-premise invironment and AWS.
@@ -86,6 +87,10 @@
     - L3 - IP Address (32 Bits) : Router
     - L2 - Hardware Address - NIC, MAC Address (48 Bits) : Ethernet (eth0)
     - L1 - Digital (1 and 0)
+* **Ports :**
+    - 0-1023:  Well known ports
+    - 1024-49151: Resistered Ports
+    - 49152-65535: Dyanmic Ports
 ###
 20. **Switch** - connects devices in a network to each other, enabling them to talk by exchanging data packets.
 ###
@@ -94,6 +99,7 @@
 22. **Socket** - Software structure within a network node of a computer network that serves as an endpoint for sending and receiving data across the network
 ###
 23. **TCP** - Transmission Control Protocol (TCP) is a standard that defines how to establish and maintain a network conversation by which applications can exchange data
+
 ###
 24. **MAC Address** - Media Access Control address is a unique identifier assigned for use as a network address in communications within a network segment.
 ###
@@ -172,4 +178,4 @@
 ###
 52. **ASIc :** - Applicaton Service Integrated Sercuit, use for bitcoin mining.
 ###
-53. 
+53. **ICMP :** -
