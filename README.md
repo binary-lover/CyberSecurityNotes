@@ -99,6 +99,12 @@
 22. **Socket** - Software structure within a network node of a computer network that serves as an endpoint for sending and receiving data across the network
 ###
 23. **TCP** - Transmission Control Protocol (TCP) is a standard that defines how to establish and maintain a network conversation by which applications can exchange data
+    - **3 Way Handshake :**
+        1. fitst PC send a random sequence no. and set SYN flag = 1 (syn = 1 for connection requst)
+        2. secont PC reply for swquence with Acknowledgement no (sequence no + 1)and send ACK no =  1 (1 for confirmation ) in reply of SYN flag and also request for connection back with SYN flag = 1 to the first PC.
+        3. When ACK & SYN and a sequence no recieve to first PC, it replies back in response to SYN with ACK no (sequence + 1 ) and ACK flag = 1.   
+        <p>So this is how 3 Way Hand shake Happen In TCP </p>
+
     - **TCP header**
         
         ![TCP Header](https://media.geeksforgeeks.org/wp-content/uploads/TCPSegmentHeader-1.png)
@@ -106,11 +112,14 @@
  
         - **Acknowledgement Number** – A 32-bit field that holds the acknowledgement number, i.e, the byte number that the receiver expects to receive next. It is an acknowledgement for the previous bytes being received successfully. 
 
-    - **3 Way Handshake :**
-        1. fitst PC send a random sequence no. and set SYN flag = 1 (syn = 1 for connection requst)
-        2. secont PC reply for swquence with Acknowledgement no (sequence no + 1)and send ACK no =  1 (1 for confirmation ) in reply of SYN flag and also request for connection back with SYN flag = 1 to the first PC.
-        3. When ACK & SYN and a sequence no recieve to first PC, it replies back in response to SYN with ACK no (sequence + 1 ) and ACK flag = 1.   
-        <p>So this is how 3 Way Hand shake Happen In TCP </p>
+    - **Control flags –** These are 6 1-bit control bits that control connection establishment, connection termination, connection abortion, flow control, mode of transfer etc. Their function is:
+        - URG: Urgent pointer is valid
+        - ACK: Acknowledgement number is valid( used in case of cumulative acknowledgement)
+        - PSH: Request for push
+        - RST: Reset the connection
+        - SYN: Synchronize sequence numbers
+        - FIN: Terminate the connection
+
 
 ###
 24. **MAC Address** - Media Access Control address is a unique identifier assigned for use as a network address in communications within a network segment.
@@ -190,4 +199,4 @@
 ###
 52. **ASIc :** - Applicaton Service Integrated Sercuit, use for bitcoin mining.
 ###
-53. **ICMP :** -
+53. **ICMP :** - Internet Control Message Protocol (ICMP) is a network layer protocol that is used to diagnose communication errors. ICMP is used for diagnostics and network management. For example, the “ping” utility uses an ICMP request and ICMP reply message.
