@@ -19,7 +19,7 @@
     - The U.S. Advanced Research Projects Agency Network (ARPANET) was the first public packet-switched computer network. 
     - It was first used in 1969 and finally decommissioned in 1989. ARPANET's main use was for academic and research purposes.
 ###
-6. **VPC**
+6. **VPC** 
     - virtual private cloud which works like a private network to isolate the resources within it
 ###
 7. **Subnet**
@@ -171,3 +171,5 @@
     - it is immposibble to distribute system to simultaneouslyprovide more than two of the three of the guarantees.
 ###
 52. **ASIc :** - Applicaton Service Integrated Sercuit, use for bitcoin mining.
+###
+53. 
