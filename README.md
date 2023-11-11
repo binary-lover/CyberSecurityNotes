@@ -205,4 +205,9 @@
 52. **ASIc :** - Applicaton Service Integrated Sercuit, use for bitcoin mining.
 ###
 53. **ICMP :** - Internet Control Message Protocol (ICMP) is a network layer protocol that is used to diagnose communication errors. ICMP is used for diagnostics and network management. For example, the “ping” utility uses an ICMP request and ICMP reply message.
+###
 54. **Footprinting :** - The process of cybersecurity footprinting involve profiling organaisation  and collencting data about the network, host, employee and third-party partners. like which os used, which services used and its virsions, firewall protocols, IPs, DNS, 
+###
+55. **Enumeration :** - its nothing but geathering information about the ports. like its virsion, crediantial etc.
+###
+56. **Malware :** - It's an malecious software intended to harm or exploit any programmable devices, service or network.
