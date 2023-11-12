@@ -211,3 +211,8 @@
 55. **Enumeration :** - its nothing but geathering information about the ports. like its virsion, crediantial etc.
 ###
 56. **Malware :** - It's an malecious software intended to harm or exploit any programmable devices, service or network.
+###
+57. **Payloads :** - Payload in the context of malware refers to malicious code that causes harm to the targeted victim. Malware payloads can be distributed by methods such as worms and phishing emails. 
+    - Payloads can be delivered to your computer through: Email attachments, Malicious websites, USB drives. 
+    - Today, malware authors typically encrypt the payload to hide the malicious code from antimalware detection and remediation tools
+    
