@@ -215,4 +215,8 @@
 57. **Payloads :** - Payload in the context of malware refers to malicious code that causes harm to the targeted victim. Malware payloads can be distributed by methods such as worms and phishing emails. 
     - Payloads can be delivered to your computer through: Email attachments, Malicious websites, USB drives. 
     - Today, malware authors typically encrypt the payload to hide the malicious code from antimalware detection and remediation tools
-    
+###
+58. **Reconnaissance :** - Reconnaissance is the information-gathering stage of ethical hacking, where you collect data about the target system.
+
+###
+55. **lucky**
