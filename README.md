@@ -79,10 +79,17 @@
 ###
 
 - **ISA (Instruction Set Architecture)**
+###
 - **Cloud:**
     - A shareable server over the internet.
     - Private, Public cloud.
     - Examples: AWS, Microsoft Azure, GCP (Google Cloud Platform)
+###
+- **Cloud Service Model**
+    - **On-Premesis** - All things are managed by cloud
+    - **IaaS** - Infrastructure as a service
+    - **PaaS** - Platform as a service
+    - **SaaS** - Software as a service
 
 - **Bare Metal:**
     - A fresh server without an OS/applications.
