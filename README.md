@@ -348,10 +348,21 @@
     - It's nothing but gathering information about the
 
 ###
-- **Malware :** - It's an malicious software intended to harm or exploit any programmable devices, service or network.
+* **Cyber Security threats**
+    - **Malware :** - It's an malicious software intended to harm or exploit any programmable devices, service or network.
+    - **Ransomware** - Ransomware is a type of malware that encrypts a victim's files or device and demands a ransom for the decryption key
+    - **Social Engineering** - Social engineering is the manipulation of individuals to extract sensitive information. For example, phishing, Emails.
+    - **Denial of Service (DoS):** It's a cyber attack aimed at disrupting the normal functioning of a computer system, network, or service by overwhelming it with a flood of illegitimate requests or traffic, making it temporarily or indefinitely unavailable to users. The goal is to exhaust the target's resources, such as bandwidth, processing power, or memory, causing a disruption in services.
+    - **DDoS:** (Distributed Denial of Service) attacks involve multiple systems coordinating the attack, making them more potent and challenging to mitigate.
+
 ###
+
 - **Payloads :** - Payload in the context of malware refers to malicious code that causes harm to the targeted victim. Malware payloads can be distributed by methods such as worms and phishing emails. 
   - Payloads can be delivered to your computer through: Email attachments, Malicious websites, USB drives. 
   - Today, malware authors typically encrypt the payload to hide the malicious code from antimalware detection and remediation tools
 ###
 - **Reconnaissance :** - Reconnaissance is the information-gathering stage of ethical hacking, where you collect data about the target system.
+
+###
+
+
