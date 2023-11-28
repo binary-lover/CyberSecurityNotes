@@ -157,28 +157,6 @@
 
 ###
 
-- **TCP:**
-    - Transmission Control Protocol (TCP) is a standard that defines how to establish and maintain a network conversation by which applications can exchange data.
-    - **3 Way Handshake:**
-        1. First PC sends a random sequence number and sets SYN flag = 1 (syn = 1 for connection request).
-        2. Second PC replies for the sequence with Acknowledgement no (sequence no + 1) and sends ACK no = 1 (1 for confirmation) in reply to the SYN flag and also requests a connection back with SYN flag = 1 to the first PC.
-        3. When ACK & SYN and a sequence no are received by the first PC, it replies back in response to SYN with ACK no (sequence + 1) and ACK flag = 1.
-        So this is how the 3 Way Handshake Happens In TCP.
-
-    - **TCP Header**
-        ![TCP Header](https://media.geeksforgeeks.org/wp-content/uploads/TCPSegmentHeader-1.png)
-        - **Sequence Number** – A 32-bit field that holds the sequence number, i.e., the byte number of the first byte that is sent in that particular segment. It is used to reassemble the message at the receiving end of the segments that are received out of order.
-        - **Acknowledgement Number** – A 32-bit field that holds the acknowledgment number, i.e., the byte number that the receiver expects to receive next. It is an acknowledgment for the previous bytes being received successfully.
-        - **Control flags –** These are 6 1-bit control bits that control connection establishment, connection termination, connection abortion, flow control, mode of transfer, etc. Their function is:
-            - URG: Urgent pointer is valid
-            - ACK: Acknowledgment number is valid( used in case of cumulative acknowledgment)
-            - PSH: Request for push
-            - RST: Reset the connection
-            - SYN: Synchronize sequence numbers
-            - FIN: Terminate the connection
-
-###
-
 - **MAC Address:**
     - Media Access Control address is a unique identifier assigned for use as a network address in communications within a network segment.
 
@@ -295,6 +273,28 @@
     - Class A: 10.0.0.0 to 10.255.255.255
     - Class B: 172.16.0.0 to 172.31.255.255
     - Class C: 192.168.0.0 to 192.168.255.255
+
+###
+
+- **TCP:**
+    - Transmission Control Protocol (TCP) is a standard that defines how to establish and maintain a network conversation by which applications can exchange data.
+    - **3 Way Handshake:**
+        1. First PC sends a random sequence number and sets SYN flag = 1 (syn = 1 for connection request).
+        2. Second PC replies for the sequence with Acknowledgement no (sequence no + 1) and sends ACK no = 1 (1 for confirmation) in reply to the SYN flag and also requests a connection back with SYN flag = 1 to the first PC.
+        3. When ACK & SYN and a sequence no are received by the first PC, it replies back in response to SYN with ACK no (sequence + 1) and ACK flag = 1.
+        So this is how the 3 Way Handshake Happens In TCP.
+
+    - **TCP Header**
+        ![TCP Header](https://media.geeksforgeeks.org/wp-content/uploads/TCPSegmentHeader-1.png)
+        - **Sequence Number** – A 32-bit field that holds the sequence number, i.e., the byte number of the first byte that is sent in that particular segment. It is used to reassemble the message at the receiving end of the segments that are received out of order.
+        - **Acknowledgement Number** – A 32-bit field that holds the acknowledgment number, i.e., the byte number that the receiver expects to receive next. It is an acknowledgment for the previous bytes being received successfully.
+        - **Control flags –** These are 6 1-bit control bits that control connection establishment, connection termination, connection abortion, flow control, mode of transfer, etc. Their function is:
+            - URG: Urgent pointer is valid
+            - ACK: Acknowledgment number is valid( used in case of cumulative acknowledgment)
+            - PSH: Request for push
+            - RST: Reset the connection
+            - SYN: Synchronize sequence numbers
+            - FIN: Terminate the connection
 
 ###
 
