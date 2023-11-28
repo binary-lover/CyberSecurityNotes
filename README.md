@@ -133,6 +133,8 @@
     - L2 - Hardware Address - NIC, MAC Address (48 Bits): Ethernet (eth0)
     - L1 - Digital (1 and 0)
 
+- **Exit ip** - public ip allocated to our router or any devise like this which connect two network, the device ip is called exit ip.
+  
 - **Ports:**
     - 0-1023: Well-known ports
     - 1024-49151: Registered Ports
