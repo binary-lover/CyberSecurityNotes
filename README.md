@@ -345,6 +345,12 @@
     - The process of cybersecurity footprinting involves profiling an organization and collecting data about the network, host, employee, and third-party partners, like which OS is used, which services used and its versions, firewall protocols, IPs, DNS.
 
 ###
+- **Fuzzing :** - Fuzzing is a technique used to find vulnerabilities in software, operating systems, and networks. It's also known as fuzz testing.
+    - **The steps for fuzz testing are**: 
+        - Identify the target system
+        - Identify inputs
+        - Generate fuzzed data
+        - Execute the test using fuzzy data
 
 - **Enumeration:**
     - It's nothing but gathering information about the
