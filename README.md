@@ -369,6 +369,7 @@
   - Payloads can be delivered to your computer through: Email attachments, Malicious websites, USB drives. 
   - Today, malware authors typically encrypt the payload to hide the malicious code from antimalware detection and remediation tools
 ###
+
 - **Reconnaissance :** - Reconnaissance is the information-gathering stage of ethical hacking, where you collect data about the target system.
 
 ###
