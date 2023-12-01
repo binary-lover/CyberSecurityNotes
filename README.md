@@ -219,4 +219,4 @@
 58. **Reconnaissance :** - Reconnaissance is the information-gathering stage of ethical hacking, where you collect data about the target system.
 
 ###
-55. **lucky**
+
