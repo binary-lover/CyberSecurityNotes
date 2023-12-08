@@ -242,7 +242,7 @@
 
 <h1 align = "center">Cyber Security Keywords</h1>
 <h3 align="center">Cyber Security Careers</h3>
-<img src = "https://raw.githubusercontent.com/binary-lover/Keywords/main/cybersecurity%20careers.png">
+<img align="center" src = "https://media.istockphoto.com/id/1412282189/photo/lock-network-technology-concept.webp?b=1&s=170667a&w=0&k=20&c=He6JoCWuNNp7I9vjOUzELTax-hDay-1BnO6VyFxu8Po=">
 
 - **MX record:**
     - A DNS 'mail exchange' (MX) record directs email to a mail server. The MX record indicates how email messages should be routed in accordance with the Simple Mail Transfer Protocol (SMTP, the standard protocol for all email).
