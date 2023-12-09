@@ -245,7 +245,7 @@
 ###
 
 - **Cybersecurity Careers**
-     <p align="center"><img align="center" src = "https://github.com/binary-lover/Keywords/blob/main/cybersecurity%20careers.png"></p>
+    <p align="center"><img align="center" src = "cybersecurity careers.png"></p>
 
 
 - **MX record:**
