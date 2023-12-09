@@ -1,6 +1,5 @@
-# Keywords
-
-![Network Image](https://assets-global.website-files.com/5b6df8bb681f89c158b48f6b/5ce426d9a4a48f75aee6f062_what-is-a-computer-network-p-800.jpeg)
+<h1 align=center>Keywords</h1>
+<p align="center"><img align="center" src = "https://assets-global.website-files.com/5b6df8bb681f89c158b48f6b/5ce426d9a4a48f75aee6f062_what-is-a-computer-network-p-800.jpeg"></p>
 
 ###
 
@@ -241,8 +240,8 @@
 <br>
 
 <h1 align = "center">Cyber Security Keywords</h1>
-<h3 align="center">Cyber Security Careers</h3>
-<img align="center" src = "https://media.istockphoto.com/id/1412282189/photo/lock-network-technology-concept.webp?b=1&s=170667a&w=0&k=20&c=He6JoCWuNNp7I9vjOUzELTax-hDay-1BnO6VyFxu8Po=">
+<p align="center"><img align="center" src = "https://kasi.asia/wp-content/uploads/2022/06/CyberSecurity-iStock-1296650655_1900x600_acf_cropped.jpg"></p>
+
 
 - **MX record:**
     - A DNS 'mail exchange' (MX) record directs email to a mail server. The MX record indicates how email messages should be routed in accordance with the Simple Mail Transfer Protocol (SMTP, the standard protocol for all email).
