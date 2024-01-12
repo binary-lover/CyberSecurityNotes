@@ -136,3 +136,18 @@
 - **Reconnaissance :** - Reconnaissance is the information-gathering stage of ethical hacking, where you collect data about the target system.
 
 ###
+
+- **Hack Value :** - Perceived value or worth of a targate as seen by the attacker
+
+###
+- **Zero-Day Attack / O day attack :** - An attack that occurs before a vendor is aware of flaw or is able to provide a patch for the flaw.
+###
+- **Daisy Chaining / Pivoting :** - Using a sucsessfull attack immediately launch another attack.
+###
+- **Doxing :** - publishing personally idenfiable information (PII) about an individual usually with malicious intent.
+###
+- **Non-repudiation :** - The inability to deny that you did something, usually accomplished through requirement authentication andd digital signature on documents.
+###
+- **Mitigation :** - Any action or control used to minimize Damage in the event of negative event.
+###
+- **
