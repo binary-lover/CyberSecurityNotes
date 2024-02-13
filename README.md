@@ -150,4 +150,7 @@
 ###
 - **Mitigation :** - Any action or control used to minimize Damage in the event of negative event.
 ###
-- **
+
+- **inetial Access :** - The first step in the cyber kill chain/mitre att&ck, where the attacker gains access to the target system.
+
+- **Parsistence:**: - The ability of malware to survive a reboot.
