@@ -30,6 +30,47 @@
 
 - The framework is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.
 
+- The Enterprise ATT&CK Matrix is a superset of the Windows, macOS and Linux matrices. The 2022 version of ATT&CK for Enterprise contains 14 Tactics, 193 Techniques, 401 Subtechniques, 135 Groups, 14 Campaigns and 718 Pieces of Software. 
+
+
+- ### There are 14 tactics in the Enterprise ATT&CK Matrix:
+    | Tactic                | Attacker(s) Objective                                       |
+    |-----------------------|-------------------------------------------------------------|
+    | 1. Reconnaissance      | Gather information they can use to plan future operations  |
+    | 2. Resource Development| Establish resources they can use to support operations     |
+    | 3. Initial Access      | Get into your network                                      |
+    | 4. Execution           | Run malicious code                                         |
+    | 5. Persistence         | Maintain their foothold                                    |
+    | 6. Privilege Escalation| Gain higher-level permissions                              |
+    | 7. Defense Evasion     | Avoid being detected                                       |
+    | 8. Credential Access    | Steal account names and passwords                         |
+    | 9. Discovery           | Figure out your environment                                |
+    | 10. Lateral Movement    | Move through your environment                             |
+    | 11. Collection         | Gather data of interest to their goal                      |
+    | 12. Command and Control | Communicate with compromised systems to control them      |
+    | 13. Exfiltration       | Steal data                                                 |
+    | 14. Impact             | Manipulate, interrupt, or destroy your systems and data    |
+
+- ### What Are Procedures?
+    - Procedures are the specific implementations that adversaries use for techniques or subtechniques
+
+- ### Benifits of MITRE ATT&CK® Framework
+    - its ability to help organizations stay up-to-date with the latest threats and attack techniques.
+    - The framework is regularly updated with new techniques and tactics as they emerge, ensuring that organizations are aware of the latest threats and can take proactive steps to mitigate them.
+    - The framework also helps organizations improve their overall security posture and reduce risk.
+
+- ### How Can I Use ATT&CK?
+
+- The ATT&CK Matrix illustrates all known tactics and techniques in an easily comprehensible manner. In each column, individual techniques are listed at the top and attack tactics are displayed at the bottom. See the [Getting Started](https://attack.mitre.org/resources/) page for resources on how to start using ATT&CK.
+- ATT&CK can be used in several ways to help security operations, threat intelligence and security architecture.<br>
+**Some of the primary use cases are:**
+
+    - Adversary Emulation
+    - Red Teaming
+    - Behavioral Analytics Development
+    - Defensive Gap Assessment
+    - SOC Maturity Assessment
+    - Cyberthreat Intelligence
 
 ### [MITRE ATT&CK® Matrix](https://attack.mitre.org/matrices/enterprise/)
 
@@ -49,3 +90,16 @@
 ### What Is MITRE Engenuity?
 
 - In collaboration with private companies, MITRE Engenuity is an organization that addresses public interest challenges in cybersecurity, infrastructure resilience, healthcare effectiveness and next-generation communications.
+
+
+### Introduction to pyramid of pain - 
+1. **hash value :** SHA1, MD5, easy to change
+2. **IP address :** easy to change
+3. **domain :** simple to change
+4. **Network-based artifacts :** URI patterns, Network protocols 
+5. **Host-based artifacts :** File names, Registry keys, File paths, Annoying to change
+6. **Tools :** Malware, C2, Exploits or password cracking tools, challenging to change
+7. **TTPs :** Tactics, Techniques, and Procedures Tough to change
+
+![alt text](image-1.png)
+
