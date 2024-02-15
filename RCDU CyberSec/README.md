@@ -1,8 +1,11 @@
 # Some key concepts in Cyber Security
 
 
-### [MITRE ATT&CK :](https://attack.mitre.org/) (Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK))
+### [MITRE ATT&CK :](https://attack.mitre.org/)
 
+`MITRE` : massachusetts institute of technology research and engineering
+
+`ATT&CK` : Adversarial Tactics, Techniques, and Common Knowledge
 - its non-profit (open-source) organization, maintains and provides the framework as an open and publicly accessable resources.
 
 - it was created by MITRE, in 2013.
@@ -51,6 +54,8 @@
     | 13. Exfiltration       | Steal data                                                 |
     | 14. Impact             | Manipulate, interrupt, or destroy your systems and data    |
 
+    ![alt text](image-2.png)
+
 - ### What Are Procedures?
     - Procedures are the specific implementations that adversaries use for techniques or subtechniques
 
@@ -98,7 +103,7 @@
 3. **domain :** simple to change
 4. **Network-based artifacts :** URI patterns, Network protocols 
 5. **Host-based artifacts :** File names, Registry keys, File paths, Annoying to change
-6. **Tools :** Malware, C2, Exploits or password cracking tools, challenging to change
+6. **Tools :** Malware, C2 (command and control), Exploits or password cracking tools, challenging to change
 7. **TTPs :** Tactics, Techniques, and Procedures Tough to change
 
 ![alt text](image-1.png)
