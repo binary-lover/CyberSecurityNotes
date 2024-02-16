@@ -76,9 +76,11 @@
 
 ###
 
-- **Bind Shell:**
-- **Reverse Shell:**
-    - When a vulnerable machine tries to connect.
+- **Bind Shell vs Reverse shell:**
+    - **Bind Shell:**
+        - When a vulnerable machine listens for a connection.
+    - **Reverse Shell:**
+        - When a vulnerable machine tries to connect.
 
 ###
 
@@ -100,7 +102,7 @@
 ###
 
 - **ICMP:**
-    - Internet Control Message Protocol (ICMP) is a network layer protocol that is used to diagnose communication errors. ICMP is used for diagnostics and network management. For example, the “ping” utility uses an ICMP request and ICMP reply message.
+    - Internet Control Message Protocol (ICMP) is a network layer protocol that is used to diagnose communication errors. `ICMP` is used for diagnostics and network management. For example, the `ping` utility uses an `ICMP` request and `ICMP` reply message.
 
 ###
 
@@ -133,6 +135,18 @@
   - Today, malware authors typically encrypt the payload to hide the malicious code from antimalware detection and remediation tools
 ###
 
+- **Trojan in one line:** - A Trojan is a type of malware disguised as legitimate software that trick users into loading and executing it on their systems. Once activated, Trojans can enable cyber-criminals to spy on you, steal your sensitive data, and gain backdoor access to your system.
+
+###
+
+- **Ransomware :** - Ransomware is a type of malware that encrypts a victim's files or device and demands a ransom for the decryption key. 
+
+###
+
+- **IOC :** - Indicators of Compromise (IOCs) are pieces of forensic data, such as data found in system log entries or files, that identify potentially malicious activity on a system or network.
+
+###
+
 - **Reconnaissance :** - Reconnaissance is the information-gathering stage of ethical hacking, where you collect data about the target system.
 
 ###
@@ -154,3 +168,5 @@
 - **inetial Access :** - The first step in the cyber kill chain/mitre att&ck, where the attacker gains access to the target system.
 
 - **Parsistence:**: - The ability of malware to survive a reboot.
+
+

@@ -108,3 +108,43 @@
 
 ![alt text](image-1.png)
 
+## CIA Triad : Confidentiality, Integrity, Availability
+
+### Some Threads to Confidentiality
+
+* **Phishing Attack :** this attacks aim to trick the victim divulging sensitive information, such as passwords, credit card numbers, or other personal information
+    
+    * **Vishing :** fishing through voice communication.
+    - **Shishing :** fishing through SMS.
+    - **Bating :** fishing through USB.
+
+* **Spyware and keylogers :** These software programs design to collect and transmit personal or organaizational data from computer without the owner's knowladge or consent.
+
+### Threads to Integrity
+
+- **Data Breach :** Unauthorized access to sensitive data, often with malicious intent.
+
+- **Malware Attack :** `Viruses`, `worms`, `trojans`, and other types of malware can corrupt or delete data.
+
+- **Man-in-the-Middle Attack :** An attacker intercepts and alters communication between two parties without their knowledge.
+
+### Threads to Availability
+
+* **Denial of Service (DoS) Attack :** An attacker floods a system with traffic or requests, rendering it unavailable to legitimate users.
+    - **Distributed Denial of Service (DDoS) Attack :** A DoS attack that uses multiple systems to launch the attack.
+
+* **Ransomware :** Malware that encrypts a victim's files or device and demands a ransom for the decryption key.
+
+## Risk Assessment
+
+![alt text](riskAssesment.png)
+
+- An `Asset` is which we are trying to protect.
+
+- A `Threat` is whome we are trying to protect it from.
+
+- A `Vulnerability` is a weakness or gap in our protection efforts.
+
+    **Note :** `Risk` is the intersection of `Asset`, `Threat`, and `Vulnerability`.
+
+![alt text](controlRisk.png)
