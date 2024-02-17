@@ -137,7 +137,7 @@
 
 ## Risk Assessment
 
-![alt text](riskAssesment.png)
+![alt text](RiskAssesment.png)
 
 - An `Asset` is which we are trying to protect.
 
@@ -147,4 +147,4 @@
 
     **Note :** `Risk` is the intersection of `Asset`, `Threat`, and `Vulnerability`.
 
-![alt text](controlRisk.png)
+![alt text](ControlRisk.png)
