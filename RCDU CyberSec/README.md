@@ -1,6 +1,5 @@
 # Some key concepts in Cyber Security
 
-
 ### [MITRE ATT&CK :](https://attack.mitre.org/)
 
 `MITRE` : massachusetts institute of technology research and engineering
@@ -148,3 +147,34 @@
     **Note :** `Risk` is the intersection of `Asset`, `Threat`, and `Vulnerability`.
 
 ![alt text](ControlRisk.png)
+
+### APTs
+
+- APTs are external threats
+- They seek to:
+    - Gain access
+    - stay there undetected as long as possible
+- They are usually sponsored by a nation-state or other well-funded organization.
+- They use multiple attack vectors to gain access to sensitive data.
+- They are high profile and high impact.
+- **APT27 :** - LuckyMouse
+    - Chinese Group that focus on Asian/Pasific nation/Middle Eastern state
+    - Targeting aerospace, education and govt sectors
+
+- **APT28 :** - Fancy Bear
+    - Russian group that targets military and govt organizations sponsored by the Russian government
+    - They are known for the DNC hack in 2016
+    - Target NATO alligned countries
+    - Uses Zero day exploits, phishing and malware
+    
+- **APT35 :** - Charming Kitten
+    - Iranian group that targets military and govt organizations
+    - develop a tool to steal data from well known email providers such as Gmail, Yahoo, and Microsoft
+    - Documented interference in the 2020 and 2022 US election
+
+- **APT37 :** - Reaper
+    - North Korean group that targets South Korean military and govt organizations
+    - Mostly targets South Korean organizations such as chemicals, electronics, manufacturing, aerospace, automotive, and healthcare
+    - Took advantage of Oct 29 Itaewon crowd-crush tragedy, which kill more than 150 people
+    - Used Social engeenering to spread malware in South Korea.
+    - They are known for the 2017 WannaCry ransomware attack

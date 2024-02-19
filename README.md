@@ -159,3 +159,10 @@
 - **Parsistence:**: - The ability of malware to survive a reboot.
 
 - **Spear Phishing :** - A phishing attack that is targeted at a specific individual or group.
+
+- **Control :** - Planting a backdoor or other malware on a system to maintain access.
+
+### Hacker Classes
+
+![alt text](hackerClass.png)
+
