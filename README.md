@@ -12,7 +12,7 @@
 
 
 
--**AXFR:**
+- **AXFR:**
   - AXFR (global Asynchronous Transfer Full Range) is a protocol for “zone transfers” for replication of DNS data across multiple DNS servers. Unlike normal DNS queries that require the user to know some DNS information ahead of time, AXFR queries reveal resource records, including subdomain names.
 
 
