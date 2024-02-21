@@ -178,3 +178,4 @@
     - Took advantage of Oct 29 Itaewon crowd-crush tragedy, which kill more than 150 people
     - Used Social engeenering to spread malware in South Korea.
     - They are known for the 2017 WannaCry ransomware attack
+
