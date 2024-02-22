@@ -166,3 +166,32 @@
 
 ![alt text](hackerClass.png)
 
+* **Testing Types**
+
+    - **White Box :**
+        - internal team will perform it, have complete visiblity
+        - risk: Teams already familiar with a system will overlook the vulnerabilities
+    - **Grey Box :**
+        - The tester has some visibility into the system they are testing
+    - **Black Box :**
+        - No visibility to the tester
+        - Most closely resemble actual attack
+    
+
+* **SIEM** (Security Information and Event Management)
+
+    - **SIEM** stands for Security Information and Event Management. It is a comprehensive approach to cybersecurity that involves the integration of security information management (SIM) and security event management (SEM) functions into a single security management system.
+
+    - **Some key features of SIEM include:**
+        - **Log Management:** SIEM systems collect, aggregate, and store log data from a wide range of sources, including security devices, servers, and applications.
+        - **Real-Time Monitoring:** SIEM systems provide real-time monitoring of security events, allowing security teams to detect and respond to threats as they occur.
+        - **Threat Detection:** SIEM systems use advanced analytics and machine learning to detect and respond to security threats.
+        - **Incident Response:** SIEM systems provide incident response capabilities, allowing security teams to investigate and respond to security incidents.
+
+- **UEBA** **U**ser and **E**ntity **B**ehavior **A**nalytics
+
+- UEBA is a cybersecurity technology that focuses on analyzing and understanding the behavior of users and entities (such as devices, applications, and servers) within an organization's network. The goal of UEBA is to detect and respond to abnormal or anomalous behavior that may indicate potential security threats.
+
+### SOAR 
+
+- **SOAR** Securonix provides SOAR solutions that enable organizations to automate and orchestrate their response to security incidents. This can enhance the efficiency and effectiveness of incident response workflows.
