@@ -195,3 +195,11 @@
 ### SOAR 
 
 - **SOAR** Securonix provides SOAR solutions that enable organizations to automate and orchestrate their response to security incidents. This can enhance the efficiency and effectiveness of incident response workflows.
+
+### Endpoint privilege management
+
+- **Endpoint privilege management (EPM)** 
+    - EPM ensures that end-users have the least privilege when running trusted applications.
+    - By using EPM, organizations can:
+        - Prevent and contain attacks on desktops, laptops, and servers.
+        - Reduce the risk of information theft or ransomware encryption.
