@@ -13,7 +13,7 @@
 
 - Advarsary TTps are used to outline how a specific adversary operates.
 
-### what is Caldera?
+## What is Caldera?
 
 - Caldera is a cyber security framework designed to easily automate adversary emulation, assist manual red teams and automate incident response.
 
@@ -23,3 +23,13 @@
     1. The core system. This is the framework code, consisting of what is available in this repository. include is an asynchronous command and control (C2) server with a REST API and a web interface.
 
     2. Plugins. These repositories expand the core framework capacities and providing additional functionality. Example including agents, reporting, collection of TTPs, and more.
+
+### Caldera terminology
+
+1. **Ability :**: is used to outline a set of actions that are used to achieve a specific goal. Example: "Ability to execute a file"
+
+2. **Adversary :**  Malicious actor that is paired with specific abilities.
+
+3. **Agent :** Target host.
+
+4. **Groups :** Collection of agents, either based on OS or funciton.
