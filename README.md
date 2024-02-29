@@ -203,3 +203,10 @@
     - By using EPM, organizations can:
         - Prevent and contain attacks on desktops, laptops, and servers.
         - Reduce the risk of information theft or ransomware encryption.
+
+**Cryptojacking :** 
+
+**Cyberespionage :**
+
+**Botnets :**
+

@@ -148,6 +148,76 @@
 
 ![alt text](ControlRisk.png)
 
+### Network Threat Categories
+
+- **Sniffing & eavesdropping :** Sniffing is the act of capturing packets of data as they pass over the network. Eavesdropping is the act of listening in on a conversation between
+
+- **DNS/ARP Poisoning :** DNS poisoning is the act of corrupting the DNS cache with false information. ARP poisoning is the act of corrupting the ARP cache with false information. `ARP` : Address Resolution Protocol.
+
+- **Dos/DDos**
+
+- **Password base attack**
+
+- **Firewall and IDS attack  :** IDS (Intrusion Detection System: it is a device or software application that monitors a network or systems for malicious activity or policy violations) Attack is the act of disabling or bypassing an IDS. 
+
+- **Session Hijacking :** Session hijacking is the act of taking over a session between a client and a server. (Session means the time between the client and server are connected to each other.)
+
+### Host Threat Categories
+
+- **Misconfiguration**
+
+- **Default Configuration**
+
+- **Missing patches/updates**
+
+- **Malware Attacks** 
+
+- **Scanning/Fingerprinting**
+
+- **Arbitrary code execution** 
+
+- **Backdoor access**
+
+- **Privilage Escalation :**
+
+### Application Threat Categories
+
+- **Injection Attack :** An injection attack is a type of security threat that occurs when an attacker uses a form of malicious code to introduce data into a program or script to change the course of execution.
+
+- **Improper data/input validation**
+
+- **Impropper error handling**
+
+- **Hidden-field manipulation**
+
+- **Brocken Session Management :**
+
+- **Cryptography issue :**
+
+- **SQL injection :**
+
+- **Buffer Overflow :**
+
+- **Information Disclosure :**
+
+**Shrink Wrap Code Attakc :**
+- Takes advantage of software bug present in original version of a product
+    - The vendor has release the patch, but the system administrator has not applied the patch
+    - Examples:
+        - Default username and password 
+        - Windows 10 ( v1809 - 20h2 ) `ReFS` Remote code vulnerability `CVE-2022-21936`
+        - Windows server 2016 EternalBlue SMBv1 Arbitrary code execution `MS17-010` `CVE-2017-0144`
+
+## Qualitative Risk Assessment
+
+- Subjective Assessment
+- Assign relative probability and impact to risk
+- can be `High, medium, low` or `1-10` <hr>
+![alt text](image-3.png)
+
+### Quantitative Risk Assessment 
+![alt text](image-4.png)
+    
 ### APTs
 
 - APTs are external threats
