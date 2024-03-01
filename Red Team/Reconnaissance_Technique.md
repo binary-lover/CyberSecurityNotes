@@ -28,7 +28,6 @@
       - [Foca](#foca)
       - [Gathering Information from Social Media](#gathering-information-from-social-media)
   - [Conclusion](#conclusion)
-  - [References](#references)
 
 ## Introduction
 Reconnaissance is the first phase of the cyber attack process. It is the process of gathering information about the target system. The information gathered is used to identify vulnerabilities and weaknesses in the target system. The reconnaissance phase is divided into two categories: Active and Passive reconnaissance. Active reconnaissance involves direct interaction with the target system, while passive reconnaissance involves gathering information without directly interacting with the target system. This document will discuss various reconnaissance techniques used by Red Teamers.
@@ -70,8 +69,55 @@ Passive reconnaissance involves gathering information without directly interacti
 #### Google Dorking
 Google dorking is the process of using advanced search operators to identify sensitive information on the internet. The advanced search operators include `site`, `filetype`, `intitle`, and `inurl`.
 
-#### Shodan
+#### [Shodan](https://www.shodan.io/)
 Shodan is a search engine that allows users to search for internet-connected devices. The search results include information about the device, such as the IP address, open ports, and services running on the device.
+This was created by `John Matherly`, in 2009. <br>
+
 
 #### Censys
+This work similarly to Shodan, however, it is more focused on the security aspect of the devices.
+This was created by the University of Michigan, in 2015.
+
+#### Recon-ng
+Recon-ng is a reconnaissance framework that allows users to gather information about the target system from various sources, such as search engines, social media, and public databases.
+this framework was created by Tim `Tomes`, in `2013`. company: `Black Hills Information Security`.
+
+#### Maltego
+Maltego is a powerful open-source intelligence and forensics tool used in cybersecurity for visualizing and analyzing relationships between entities to gather information and identify potential security threats.
+This was created by `Roelof Temmingh`, in 2008. company: `Paterva`.
+
+#### [theHarvester](https://github.com/laramies/theHarvester)
+TheHarvester is a cybersecurity tool for open-source intelligence gathering, designed to extract information from various public sources, such as search engines and DNS services.
+This was created by `Christian Martorella`, in 2006.
+
+#### [OSINT Framework](https://osintframework.com/)
+OSINT Framework is a collection of various tools and resources for Open-Source Intelligence (OSINT) gathering in cybersecurity. It was created by `Justin Nordine` in 2015, a security professional, to assist analysts in efficiently accessing and utilizing OSINT tools.
+
+#### [SpiderFoot](https://github.com/smicallef/spiderfoot)
+SpiderFoot is an open-source intelligence (OSINT) tool used in cybersecurity for automated reconnaissance, information gathering, and footprinting of digital assets.
+This was created by `Steve Micallef`, in 2009.
+
+#### [Metagoofil](https://gitlab.com/kalilinux/packages/metagoofil)
+Metagoofil is a tool in cybersecurity that enables information gathering through metadata extraction from public documents, such as PDFs, Word documents, and presentations, to reveal details about an organization's infrastructure and potential security vulnerabilities.
+This was created by `Christian Martorella`, in 2006.
+
+#### [Infoga](https://github.com/The404Hacking/Infoga)
+Infoga is a cybersecurity tool for gathering email-related information, leveraging search engines and public sources to aid in targeted activities like phishing or security assessments.
+This was created by `The404Hacking`, in 2013.
+
+#### [Creepy](https://github.com/ilektrojohn/creepy)
+Creepy in cybersecurity refers to malicious activities or tools designed to invade privacy, exploit vulnerabilities, or conduct unauthorized surveillance, posing a threat to individuals or organizations.
+This was created by `ilektrojohn`, in 2012.
+
+#### [Foca](https://github.com/ElevenPaths/FOCA)
+FOCA (Fingerprinting Organizations with Collected Archives) is a cybersecurity tool used for metadata analysis to identify and assess information about organizations based on their publicly accessible documents and files.
+This was created by `ElevenPaths`, in 2009.
+
+#### Gathering Information from Social Media
+Social media platforms like Facebook, Twitter, LinkedIn, and Instagram can be used to gather information about the target system. The information gathered includes the target's personal information, friends, and interests.
+
+## Conclusion
+Reconnaissance is the first phase of the cyber attack process. It is the process of gathering information about the target system. The information gathered is used to identify vulnerabilities and weaknesses in the target system. The reconnaissance phase is divided into two categories: Active and Passive reconnaissance. Active reconnaissance involves direct interaction with the target system, while passive reconnaissance involves gathering information without directly interacting with the target system. This document discussed various reconnaissance techniques used by Red Teamers.
+
+
 
