@@ -56,3 +56,5 @@ Red team is a group of people who are responsible for testing the security of an
 ## [Adversary Emulation with Caldera](/RCDU%20CyberSec/Adversary_Emulation_with_Caldera.md)
 
 ## [Red Team Reconnaissance Techniques](/Red%20Team/Reconnaissance_Technique.md)
+
+## [Red Team Exploitation Techniques](/Red%20Team/Exploitation_Technique.md)
