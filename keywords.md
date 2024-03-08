@@ -236,3 +236,9 @@
 
 ###
 
+- **ARP :** 
+    - Address Resolution Protocol (ARP) is a communication protocol used for discovering the link layer address, such as a MAC address, associated with a given internet layer address, typically an IPv4 address.
+    - ARP is used to map an IP address to a MAC address.
+    - ARP table:
+        - It is a table that stores mappings of IP addresses to MAC addresses.
+        - It is used to determine the MAC address of a device based on its IP address.
