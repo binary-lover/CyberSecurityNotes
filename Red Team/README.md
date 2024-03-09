@@ -1,5 +1,18 @@
 # Red Team Introduction
 
+## Contents
+- [What is red team?](#what-is-red-team)
+- [why do we need red team?](#why-do-we-need-red-team)
+- [Why organizations should use Red Teaming?](#why-organizations-should-use-red-teaming)
+- [what is penetration testing?](#what-is-penetration-testing)
+- [What is a Red Team Exercise](#what-is-a-red-team-exercise)
+- [Adversary Emulation with Caldera](#adversary-emulation-with-caldera)
+- [Red Team Reconnaissance Techniques](#red-team-reconnaissance-techniques)
+    - [Active Reconnaissance](/Red%20Team/Reconnaissance_Technique.md#active-reconnaissance)
+    - [Passive Reconnaissance](/Red%20Team/Reconnaissance_Technique.md#passive-reconnaissance)
+- [Red Team Exploitation Techniques](#red-team-exploitation-techniques)
+
+
 ### What is red team?
 
 Red team is a group of people who are responsible for testing the security of an organization. They are responsible for finding vulnerabilities and weaknesses in the organization's security posture. They do this by simulating real-world attacks on the organization's systems and networks. The goal of red team is to identify and fix any security issues before they can be exploited by real attackers.
@@ -53,8 +66,12 @@ Red team is a group of people who are responsible for testing the security of an
     - Cloud Penetration Testr
     - Many more
 
-## [Adversary Emulation with Caldera](/RCDU%20CyberSec/Adversary_Emulation_with_Caldera.md)
+### [Adversary Emulation with Caldera](/RCDU%20CyberSec/Adversary_Emulation_with_Caldera.md)
 
-## [Red Team Reconnaissance Techniques](/Red%20Team/Reconnaissance_Technique.md)
+- **Caldera :** is an open-source tool made by MITRE that allows you to emulate the behavior of real-world attackers. It is designed to help organizations test their security defenses by simulating the tactics, techniques, and procedures (TTPs) used by real attackers.
 
-## [Red Team Exploitation Techniques](/Red%20Team/Exploitation_Technique.md)
+### [Red Team Reconnaissance Techniques](/Red%20Team/Reconnaissance_Technique.md)
+- **Reconnaissance** is the first phase of a red team exercise. It involves gathering information about the target organization, its systems, and its employees. The goal of reconnaissance is to identify potential vulnerabilities and weaknesses that can be exploited during the rest of the exercise.
+
+### [Red Team Exploitation Techniques](/Red%20Team/Exploitation_Technique.md)
+- **Exploitation** is the second phase of a red team exercise. It involves using the information gathered during reconnaissance to launch attacks on the target organization's systems and networks. The goal of exploitation is to identify and exploit vulnerabilities and weaknesses in the organization's security defenses.

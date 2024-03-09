@@ -33,6 +33,7 @@
 Reconnaissance is the first phase of the cyber attack process. It is the process of gathering information about the target system. The information gathered is used to identify vulnerabilities and weaknesses in the target system. The reconnaissance phase is divided into two categories: Active and Passive reconnaissance. Active reconnaissance involves direct interaction with the target system, while passive reconnaissance involves gathering information without directly interacting with the target system. This document will discuss various reconnaissance techniques used by Red Teamers.
 
 ## Reconnaissance Techniques
+
 ### Active Reconnaissance 
 Active reconnaissance involves direct interaction with the target system. The active reconnaissance techniques include DNS enumeration, subdomain enumeration, whois enumeration, port scanning, service enumeration, vulnerability scanning, and social engineering.
 
