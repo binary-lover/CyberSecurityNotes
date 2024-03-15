@@ -204,9 +204,13 @@
         - Prevent and contain attacks on desktops, laptops, and servers.
         - Reduce the risk of information theft or ransomware encryption.
 
-**Cryptojacking :** 
+### Some techniques of exploiting public facing applications
 
-**Cyberespionage :**
+#### **Buffer Overflow :** 
+- A buffer overflow occurs when a program writes more data to a buffer than it can hold. This can cause the program to crash or allow an attacker to execute arbitrary code.
 
-**Botnets :**
+#### **Cross-Site Scripting (XSS) :**
+- Cross-site scripting (XSS) is a type of security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. This can be used to steal information or perform other malicious actions.
 
+#### **SQL Injection :**
+- SQL injection is a type of security vulnerability that allows attackers to execute arbitrary SQL commands on a database. This can be used to steal information or perform other malicious actions.
