@@ -214,3 +214,7 @@
 
 #### **SQL Injection :**
 - SQL injection is a type of security vulnerability that allows attackers to execute arbitrary SQL commands on a database. This can be used to steal information or perform other malicious actions.
+
+#### **Command Injection :**
+- Command injection is a type of security vulnerability that allows attackers to execute arbitrary commands on a system. This can be used to steal information or perform other malicious actions.
+
