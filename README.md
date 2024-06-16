@@ -59,6 +59,23 @@
             - FIN: Terminate the connection
 
 
+-  **IP :**
+    - Internet Protocol (IP) is the principal communications protocol in the Internet protocol suite for relaying datagrams across network boundaries. Its routing function enables internetworking and essentially establishes the Internet.
+    - **IP header :**
+        ![alt text](image.png)
+        - **D** - Destination IP address
+        - **S** - Source IP address
+        - **Type** - What comming next (TCP, UDP, ICMP)
+        - **Diffserv** - Differentiated Services (DiffServ) is a network solution that uses six-bit fields in the IP header to classify IP traffic flow into traffic classes
+        - **Length** -  it has 16 bits and it is used to specify the total length of the IP packet in bytes.
+        - **ID** - Identification number of the packet, it has 16 bits.
+        - **Flags** - Fragmentation flags, it has 3 bits.
+        - **TTL** - Time to live which means how many hops the packet can take before it dies (hopes are routers), it has 8 bits.
+        - **Checksum** - Checksum of the header means the header is not corrupted, it has 16 bits.
+        - **Src** - Source IP Address (32 bits).
+        - **Dst** - Destination IP Address (32 bits).
+        - **Data** - Data of the packet. (Variable length)
+        - **CRC** - Cyclic Redundancy Check (CRC) is an error-detecting code commonly used in digital networks and storage devices to detect accidental changes to raw data.
 
 - **Reverse engineering:**
     - The process of taking a piece of software or hardware and analyzing its functions and information flow so that its functionality and behavior can be understood.
