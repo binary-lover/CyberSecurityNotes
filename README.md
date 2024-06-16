@@ -235,3 +235,5 @@
 #### **Command Injection :**
 - Command injection is a type of security vulnerability that allows attackers to execute arbitrary commands on a system. This can be used to steal information or perform other malicious actions.
 
+#### **Man-in-the-browser :**
+- A proxy Trogen horse that infects web browsers and capture browser sessions data.
