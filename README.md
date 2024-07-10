@@ -237,3 +237,9 @@
 
 #### **Man-in-the-browser :**
 - A proxy Trogen horse that infects web browsers and capture browser sessions data.
+
+### Cryptographic Attacks
+
+#### **Birthday Attack :**
+- A birthday attack is a type of cryptographic attack that exploits the mathematics of probability to find two different inputs that produce the same output in a hash function.
+
