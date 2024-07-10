@@ -1,8 +1,45 @@
 <h1 align = "center">Cyber Security concespts</h1>
 <p align="center"><img align="center" src = "https://kasi.asia/wp-content/uploads/2022/06/CyberSecurity-iStock-1296650655_1900x600_acf_cropped.jpg"></p>
 
-## Table of Contents all at once
-
+### Table of Contents all at once
+<!-- dont bold the text in content -->
+- [Cyber Security concespts](#cyber-security-concespts)
+  - [Table of Contents all at once](#table-of-contents-all-at-once)
+  - [Cyber Security Basics](#cyber-security-basics)
+    - [Cyber Security Careers](#cybersecurity-careers)
+  - [cyber security keywords](#cyber-security-keywords)
+    - [MX record:](#mx-record)
+    - [AXFR:](#axfr)
+    - [Reverse lookup:](#reverse-lookup)
+    - [Brute force:](#brute-force)
+    - [Subdomain:](#subdomain)
+    - [Network Classes:](#network-classes)
+  - [TCP:](#tcp)
+    - [3 Way Handshake:](#3-way-handshake)
+    - [TCP Header](#tcp-header)
+  - [IP (internet Protocol)](#ip-internet-protocol)
+    - [IP header :](#ip-header)
+  - [Reverse engineering:](#reverse-engineering)
+  - [Bash:](#bash)
+  - [Vulnerability:](#vulnerability)
+  - [Bind Shell vs Reverse shell:](#bind-shell-vs-reverse-shell)
+  - [Traffic Smuggling](#traffic-smuggling)
+  - [Native Windows API](#native-windows-api)
+  - [White-listed Domain Abuse](#white-listed-domain-abuse)
+  - [CAP Theorem:](#cap-theorem)
+  - [ASIC:](#asic)
+  - [ICMP:](#icmp)
+  - [Footprinting:](#footprinting)
+  - [Fuzzing :](#fuzzing)
+  - [Enumeration:](#enumeration)
+  - [Cyber Security threats](#cyber-security-threats)
+- [Threat Intelligence](#threat-intelligence)
+  - [Cryptographic Attacks](#cryptographic-attacks)
+    - [Birthday Attack :](#birthday-attack)
+    - [Rainbow Table Attack :](#rainbow-table-attack)
+    - [Online vs Offline Attacks :](#online-vs-offline-attacks)
+    - [Downgrade Attack :](#downgrade-attack)
+    
 #### **Cybersecurity Careers**
 
 <p align="center"><img align="center" src = "cybersecurity careers.png"></p>
@@ -226,18 +263,18 @@ Internet Protocol (IP) is the principal communications protocol in the Internet 
 
 ![alt text](hackerClass.png)
 
-- **Testing Types**
+### **Testing Types**
 
-  - **White Box :**
-    - internal team will perform it, have complete visiblity
-    - risk: Teams already familiar with a system will overlook the vulnerabilities
-  - **Grey Box :**
-    - The tester has some visibility into the system they are testing
-  - **Black Box :**
-    - No visibility to the tester
-    - Most closely resemble actual attack
+#### **White Box :**
+- internal team will perform it, have complete visiblity
+- risk: Teams already familiar with a system will overlook the vulnerabilities
+#### **Grey Box :** 
+- The tester has some visibility into the system they are testing
+#### **Black Box :**
+- No visibility to the tester
+- Most closely resemble actual attack
 
-- **SIEM** (Security Information and Event Management)
+### **SIEM** (Security Information and Event Management)
 
   - **SIEM** stands for Security Information and Event Management. It is a comprehensive approach to cybersecurity that involves the integration of security information management (SIM) and security event management (SEM) functions into a single security management system.
 
@@ -247,7 +284,7 @@ Internet Protocol (IP) is the principal communications protocol in the Internet 
     - **Threat Detection:** SIEM systems use advanced analytics and machine learning to detect and respond to security threats.
     - **Incident Response:** SIEM systems provide incident response capabilities, allowing security teams to investigate and respond to security incidents.
 
-* **UEBA** **U**ser and **E**ntity **B**ehavior **A**nalytics
+#### **UEBA** **U**ser and **E**ntity **B**ehavior **A**nalytics
 
 * UEBA is a cybersecurity technology that focuses on analyzing and understanding the behavior of users and entities (such as devices, applications, and servers) within an organization's network. The goal of UEBA is to detect and respond to abnormal or anomalous behavior that may indicate potential security threats.
 
@@ -302,3 +339,44 @@ Internet Protocol (IP) is the principal communications protocol in the Internet 
   - Message Digest Algorithm 5
   - First published in 1992
   - Collisions found in 1996
+
+- **How to protect yourself from hash collision attacks?**
+To protect yourself from hash collision attacks, you should use a hash function that has a large output size. This makes it more difficult for an attacker to find a collision. You should also use a hash function that is resistant to collision attacks, such as SHA-256 or SHA-3.
+
+
+#### **Rainbow Table Attack :**
+
+- A rainbow table is a precomputed table for reversing cryptographic hash functions, usually for cracking password hashes.
+-   | Hash | Password |
+    | ---- | -------- |
+    | 5f4dcc3b5aa765d61d8327deb882cf99 | password |
+    | 098f6bcd4621d373cade4e832627b4f6 | test |
+    | 25d55ad283aa400af464c76d713c07ad | 123456 |
+    this is how a rainbow table looks like.
+
+- **How to protect yourself from rainbow table attacks?**
+To protect yourself from rainbow table attacks, you should use a strong password hashing algorithm that includes a salt. A salt is a random value that is added to the password before it is hashed. This makes it more difficult for an attacker to use a rainbow table to crack the password.
+
+#### **Online vs Offline Attacks :**
+
+- **Online Attack :** Is against a live logon prompt.(live logon prompt: when you are trying to log in to a system)
+- **Offline Attack :** The attacker working on their own independent computers to compromise a password hash.
+
+- **How collision can make a hash function vulnerable?**
+if hash collision occurers, it means that two different inputs produce the same output in a hash function. This can be used by an attacker to create a malicious file that has the same hash as a legitimate file. This is known as a collision attack.
+
+#### **Downgrade Attack :**
+
+- A downgrade attack is a type of attack where an attacker forces a system to use an older, less secure version of a protocol or encryption algorithm. This can make it easier for the attacker to exploit vulnerabilities in the older version of the protocol or algorithm.
+
+- **SSL Stripping :** 
+    - Combines an on-path attack with a downgrade attack.
+    - Difficult to impliment but big returns for the attacker.
+    - Attacker must sit between middle of the conversation.
+    - Victim's browser page isn't encrypted.
+    - Strip the `S` from `HTTPS` and the attacker can see the data.
+
+- **How to protect yourself from downgrade attacks?**
+To protect yourself from downgrade attacks, you should always use the latest, most secure versions of protocols and encryption algorithms. You should also ensure that your systems are configured to reject connections that use older, less secure versions of protocols.
+
+
