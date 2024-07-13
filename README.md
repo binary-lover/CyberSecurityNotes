@@ -2,7 +2,9 @@
 <p align="center"><img align="center" src = "https://kasi.asia/wp-content/uploads/2022/06/CyberSecurity-iStock-1296650655_1900x600_acf_cropped.jpg"></p>
 
 ### Table of Contents all at once
+
 <!-- dont bold the text in content -->
+
 - [Cyber Security concespts](#cyber-security-concespts)
   - [Table of Contents all at once](#table-of-contents-all-at-once)
   - [Cyber Security Basics](#cyber-security-basics)
@@ -39,7 +41,7 @@
     - [Rainbow Table Attack :](#rainbow-table-attack)
     - [Online vs Offline Attacks :](#online-vs-offline-attacks)
     - [Downgrade Attack :](#downgrade-attack)
-    
+
 #### **Cybersecurity Careers**
 
 <p align="center"><img align="center" src = "cybersecurity careers.png"></p>
@@ -119,7 +121,8 @@ Internet Protocol (IP) is the principal communications protocol in the Internet 
 - **Data** - Data of the packet. (Variable length)
 - **CRC** - Cyclic Redundancy Check (CRC) is an error-detecting code commonly used in digital networks and storage devices to detect accidental changes to raw data.
 
-### 
+###
+
 #### **Reverse engineering:**
 
 - The process of taking a piece of software or hardware and analyzing its functions and information flow so that its functionality and behavior can be understood.
@@ -179,7 +182,7 @@ Internet Protocol (IP) is the principal communications protocol in the Internet 
 
 <a id="malware"></a>
 
-- **Malware :**  It's an malicious software intended to harm or exploit any programmable devices, service or network.
+- **Malware :** It's an malicious software intended to harm or exploit any programmable devices, service or network.
 
 <a id="Ransomware"></a>
 
@@ -197,8 +200,8 @@ Internet Protocol (IP) is the principal communications protocol in the Internet 
 
 - **DDoS:** (Distributed Denial of Service) attacks involve multiple systems coordinating the attack, making them more potent and challenging to mitigate.
 
-
 #### **Payloads :**
+
 - Payload in the context of malware refers to malicious code that causes harm to the targeted victim. Malware payloads can be distributed by methods such as worms and phishing emails.
 - Payloads can be delivered to your computer through: Email attachments, Malicious websites, USB drives.
 - Today, malware authors typically encrypt the payload to hide the malicious code from antimalware detection and remediation tools
@@ -266,27 +269,32 @@ Internet Protocol (IP) is the principal communications protocol in the Internet 
 ### **Testing Types**
 
 #### **White Box :**
+
 - internal team will perform it, have complete visiblity
 - risk: Teams already familiar with a system will overlook the vulnerabilities
-#### **Grey Box :** 
+
+#### **Grey Box :**
+
 - The tester has some visibility into the system they are testing
+
 #### **Black Box :**
+
 - No visibility to the tester
 - Most closely resemble actual attack
 
 ### **SIEM** (Security Information and Event Management)
 
-  - **SIEM** stands for Security Information and Event Management. It is a comprehensive approach to cybersecurity that involves the integration of security information management (SIM) and security event management (SEM) functions into a single security management system.
+- **SIEM** stands for Security Information and Event Management. It is a comprehensive approach to cybersecurity that involves the integration of security information management (SIM) and security event management (SEM) functions into a single security management system.
 
-  - **Some key features of SIEM include:**
-    - **Log Management:** SIEM systems collect, aggregate, and store log data from a wide range of sources, including security devices, servers, and applications.
-    - **Real-Time Monitoring:** SIEM systems provide real-time monitoring of security events, allowing security teams to detect and respond to threats as they occur.
-    - **Threat Detection:** SIEM systems use advanced analytics and machine learning to detect and respond to security threats.
-    - **Incident Response:** SIEM systems provide incident response capabilities, allowing security teams to investigate and respond to security incidents.
+- **Some key features of SIEM include:**
+  - **Log Management:** SIEM systems collect, aggregate, and store log data from a wide range of sources, including security devices, servers, and applications.
+  - **Real-Time Monitoring:** SIEM systems provide real-time monitoring of security events, allowing security teams to detect and respond to threats as they occur.
+  - **Threat Detection:** SIEM systems use advanced analytics and machine learning to detect and respond to security threats.
+  - **Incident Response:** SIEM systems provide incident response capabilities, allowing security teams to investigate and respond to security incidents.
 
 #### **UEBA** **U**ser and **E**ntity **B**ehavior **A**nalytics
 
-* UEBA is a cybersecurity technology that focuses on analyzing and understanding the behavior of users and entities (such as devices, applications, and servers) within an organization's network. The goal of UEBA is to detect and respond to abnormal or anomalous behavior that may indicate potential security threats.
+- UEBA is a cybersecurity technology that focuses on analyzing and understanding the behavior of users and entities (such as devices, applications, and servers) within an organization's network. The goal of UEBA is to detect and respond to abnormal or anomalous behavior that may indicate potential security threats.
 
 ### SOAR
 
@@ -336,26 +344,27 @@ Internet Protocol (IP) is the principal communications protocol in the Internet 
 - The Attacker will muliple inputs and hash them to find a collision.
   - Protect yourself with a larger hash size.
 - MD5 hash
+
   - Message Digest Algorithm 5
   - First published in 1992
   - Collisions found in 1996
 
 - **How to protect yourself from hash collision attacks?**
-To protect yourself from hash collision attacks, you should use a hash function that has a large output size. This makes it more difficult for an attacker to find a collision. You should also use a hash function that is resistant to collision attacks, such as SHA-256 or SHA-3.
-
+  To protect yourself from hash collision attacks, you should use a hash function that has a large output size. This makes it more difficult for an attacker to find a collision. You should also use a hash function that is resistant to collision attacks, such as SHA-256 or SHA-3.
 
 #### **Rainbow Table Attack :**
 
 - A rainbow table is a precomputed table for reversing cryptographic hash functions, usually for cracking password hashes.
--   | Hash | Password |
-    | ---- | -------- |
-    | 5f4dcc3b5aa765d61d8327deb882cf99 | password |
-    | 098f6bcd4621d373cade4e832627b4f6 | test |
-    | 25d55ad283aa400af464c76d713c07ad | 123456 |
-    this is how a rainbow table looks like.
+- | Hash                             | Password |
+  | -------------------------------- | -------- |
+  | 5f4dcc3b5aa765d61d8327deb882cf99 | password |
+  | 098f6bcd4621d373cade4e832627b4f6 | test     |
+  | 25d55ad283aa400af464c76d713c07ad | 123456   |
+
+  this is how a rainbow table looks like.
 
 - **How to protect yourself from rainbow table attacks?**
-To protect yourself from rainbow table attacks, you should use a strong password hashing algorithm that includes a salt. A salt is a random value that is added to the password before it is hashed. This makes it more difficult for an attacker to use a rainbow table to crack the password.
+  To protect yourself from rainbow table attacks, you should use a strong password hashing algorithm that includes a salt. A salt is a random value that is added to the password before it is hashed. This makes it more difficult for an attacker to use a rainbow table to crack the password.
 
 #### **Online vs Offline Attacks :**
 
@@ -363,20 +372,59 @@ To protect yourself from rainbow table attacks, you should use a strong password
 - **Offline Attack :** The attacker working on their own independent computers to compromise a password hash.
 
 - **How collision can make a hash function vulnerable?**
-if hash collision occurers, it means that two different inputs produce the same output in a hash function. This can be used by an attacker to create a malicious file that has the same hash as a legitimate file. This is known as a collision attack.
+  if hash collision occurers, it means that two different inputs produce the same output in a hash function. This can be used by an attacker to create a malicious file that has the same hash as a legitimate file. This is known as a collision attack.
 
 #### **Downgrade Attack :**
 
 - A downgrade attack is a type of attack where an attacker forces a system to use an older, less secure version of a protocol or encryption algorithm. This can make it easier for the attacker to exploit vulnerabilities in the older version of the protocol or algorithm.
 
-- **SSL Stripping :** 
-    - Combines an on-path attack with a downgrade attack.
-    - Difficult to impliment but big returns for the attacker.
-    - Attacker must sit between middle of the conversation.
-    - Victim's browser page isn't encrypted.
-    - Strip the `S` from `HTTPS` and the attacker can see the data.
+- **SSL Stripping :**
+
+  - Combines an on-path attack with a downgrade attack.
+  - Difficult to impliment but big returns for the attacker.
+  - Attacker must sit between middle of the conversation.
+  - Victim's browser page isn't encrypted.
+  - Strip the `S` from `HTTPS` and the attacker can see the data.
 
 - **How to protect yourself from downgrade attacks?**
-To protect yourself from downgrade attacks, you should always use the latest, most secure versions of protocols and encryption algorithms. You should also ensure that your systems are configured to reject connections that use older, less secure versions of protocols.
+  To protect yourself from downgrade attacks, you should always use the latest, most secure versions of protocols and encryption algorithms. You should also ensure that your systems are configured to reject connections that use older, less secure versions of protocols.
 
+### impact of vulnerabilities
 
+#### 1. Race condition:
+
+- The behavior of software, electronic, oranother system's output is dependent on the timing, sequence of events, or a factor out of the user's control.
+
+### Security checks
+
+#### **Firewall**
+- A network security system that monitors and controls incoming and outgoing network taraffic based on predetermined security rules.
+
+  1. **ACL** (Access control lists): to contro incoming/outgoing traffic
+     - Application-based: Protect the user from applications and serivices by monitoring and potentially blocking the input, output.
+     - Network-based: filtering traffic based on firewall rules and allows only authorized traffic to pass in and out of the network.
+
+- **Statefull vs Stateless**
+  - Statefull: Stateful firewalls block traffic based on the state of th epacket within a session. It adds and maintains info about a user's connections in a state table,(connection table)
+  - Stateless: use ACL to identify allowed add/or blok traffic through filtering
+
+### Network Configurations
+
+#### VPN connector:
+
+A type of router device that allowes for the secure creation of VPN connections and for the safe delivery of messages between VPN nodes. Allows for the handling of a large quantity of VPN tunnels.
+
+<!-- <a id="remote-acess"></a>
+
+[click](#remote-acess) -->
+
+- **Remote Acess :** A user-to-LAN connection used by romote users.
+
+- **Site-to-Site :** Allows multiple sites to connect to remote sites over the internet.
+
+#### IPSec: 
+A protocol suite for securing Internet Protocol(IP) communications. Encrypts and authenticates all of the packets in a session etween hosts or networks. Secures more applications then SSL and TLS.
+
+- **Tunnel mode :** The default mode for IPSec, the entire pack is protected.
+
+- **Transport mode :** use to end-to-end communications in IPSec. Ex. encrypted Telnet or Remote Desktop session from a workstation to a server.
