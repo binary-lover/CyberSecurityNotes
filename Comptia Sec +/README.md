@@ -77,7 +77,9 @@
   - Statefull: Stateful firewalls block traffic based on the state of th epacket within a session. It adds and maintains info about a user's connections in a state table,(connection table)
   - Stateless: use ACL to identify allowed add/or blok traffic through filtering
 
-## Tech & Tools Install & Network Config components
+<br>
+
+# Tech & Tools Install & Network Config components
 
 ### VPN connector:
 
@@ -207,5 +209,56 @@ netstat -a // Displays all active connections and the listening ports on the sys
 netstat -b // Displays the executable files associated with each connection.
 netstat -n // Displays active connections without resolving hostnames.
 ```
+#### **tracert (Windows)/traceroute (MacOS/Linux) :**
+  - Uses the [ICMP](/README.md/#icmp) protocol to trace the route, time to live (TTL) of packets to a destination host.
 
+```bash
+tracert google.com // Traces the route
+```
+#### **nslookup :**
+  - A command-line tool that queries DNS servers to obtain domain name or IP address information.
+
+```bash
+nslookup google.com // Resolves the IP address of the domain name.
+```
+
+#### **netcat :**
+  - A versatile networking utility that can be used for port scanning, banner grabbing, file transfer, and other network-related tasks.
+
+```bash
+nc -v google.com 80 // Connects to the specified port on the target host.
+```
+
+#### **Nmap :**
+  - A powerful network scanning tool that can be used to discover hosts, services, and vulnerabilities on a network.
+
+```bash
+nmap -sS google.com // Performs a SYN scan on the target host.
+nmap -sV google.com // Determines the version of services running on the target host.
+```
+
+## troubleshooting common security issues
+
+### **Unencrypted Credentials/clear text :**
+  - All authentication must be encrypted. Unencrypted credentials can allow for attacker to: 
+    - Steal credentials
+    - Impersonate users
+    - Gain unauthorized access to systems and data.
+    - move to other networks.
+    - maintain persistence.
+
+### **Logs and event anomalies :**
+  - block all outside access until the issue is resolved, backup the logs and ristrict access to more sensitive data till the issue is resolved.
+
+### **Data exfiltration :**
+  - Data exfiltration is the unauthorized transfer of data from a computer or network. It can be done through various methods, such as email, file transfer, or remote access tools.
+  - To prevent data exfiltration, organizations should implement data loss prevention (DLP) solutions, monitor network traffic for suspicious activity, and restrict access to sensitive data.
+
+### **Baseline deviation :**
+  - Baseline deviation is when the normal behavior of a system or network changes significantly. This can be an indication of a security incident, such as a malware infection or unauthorized access.
+  - for example, a sudden increase in network traffic or a spike in CPU usage may indicate a security incident.
+  - To troubleshoot baseline deviation, organizations should monitor system and network performance, analyze logs and events for anomalies, and investigate any deviations from the baseline.
+
+
+## Analyze and interpret output from security technologies
 
