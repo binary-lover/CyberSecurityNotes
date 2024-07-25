@@ -319,7 +319,7 @@ nmap -sV google.com // Determines the version of services running on the target 
   - A firewall that looks monitors and filters packets carrying HTTP traffic using a set of communication rules.
   - Ex: `ModSecurity`, `Imperva SecureSphere`, `Barracuda WAF`.
 
-## deploy mobile devices securely
+## Deploy mobile devices securely
 
 ### **Connection methods :**
 
