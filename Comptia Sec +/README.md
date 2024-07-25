@@ -318,3 +318,23 @@ nmap -sV google.com // Determines the version of services running on the target 
 ### **Web application firewall :**
   - A firewall that looks monitors and filters packets carrying HTTP traffic using a set of communication rules.
   - Ex: `ModSecurity`, `Imperva SecureSphere`, `Barracuda WAF`.
+
+## deploy mobile devices securely
+
+### **Connection methods :**
+
+#### **SATCOM (Satellite Communication) :**
+- Satellite communication is a method of communication that uses satellites to transmit data between devices. It is commonly used for long-distance communication in remote areas where traditional communication methods are not available.
+- **Poential security risks:**
+  - Eavesdropping: Satellite signals can be intercepted by unauthorized parties, leading to data theft or espionage.
+  - Jamming: Satellite signals can be disrupted or jammed by malicious actors, causing communication failures.
+  - Spoofing: Satellite signals can be spoofed or manipulated to deceive users or gain unauthorized access to systems.
+  - SATCOM devices are at risk of leaking geopositional data and remote code execution, are not easily updated remotely.
+
+#### **ANT :**
+- wireless sensor protocol that uses a 2.4 GHz ISM(Industrial, Scientific, and Medical) band to communicate. used in heart rate monitors, fitness trackers, and other wearable devices.
+- **Poential security risks:**
+  - `Eavesdropping`: ANT signals can be intercepted by unauthorized parties, leading to data theft or privacy violations.
+  - `Spoofing`: ANT signals can be spoofed or manipulated to deceive users or gain unauthorized access to devices.
+  - [`Replay attack`](/README.md/#replay-attack)s: Attackers can capture and replay ANT signals to impersonate legitimate devices or users.
+  - [`Denial of Service (DoS)`](/README.md/#malware): Attackers can flood ANT devices with excessive traffic to disrupt communication or cause malfunctions.

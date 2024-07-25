@@ -64,6 +64,12 @@
 
 - A brute-force attack is a trial-and-error method used by application programs to decode login information and encryption keys to use them to gain unauthorized access to systems.
 
+#### Replay Attack:
+
+- A replay attack is a form of network attack in which a valid data transmission is maliciously or fraudulently repeated or delayed. This is carried out either by the originator or by an adversary who intercepts the data and re-transmits it
+- attack on devices like smart cards, RFID tags, and secure token devices that use radio frequency (RF) communication to communicate with a reader. 
+- The attacker eavesdrops on the communication between the legitimate reader and the device and then replays the communication to the device.
+
 #### **Subdomain:**
 
 - A subdomain is a separate part of your website that operates under the same primary domain name.
@@ -201,6 +207,7 @@ Internet Protocol (IP) is the principal communications protocol in the Internet 
 - **DDoS:** (Distributed Denial of Service) attacks involve multiple systems coordinating the attack, making them more potent and challenging to mitigate.
 
 #### **Payloads :**
+[click](#DDoS)
 
 - Payload in the context of malware refers to malicious code that causes harm to the targeted victim. Malware payloads can be distributed by methods such as worms and phishing emails.
 - Payloads can be delivered to your computer through: Email attachments, Malicious websites, USB drives.
