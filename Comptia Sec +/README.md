@@ -338,3 +338,4 @@ nmap -sV google.com // Determines the version of services running on the target 
   - `Spoofing`: ANT signals can be spoofed or manipulated to deceive users or gain unauthorized access to devices.
   - [`Replay attack`](/README.md/#replay-attack)s: Attackers can capture and replay ANT signals to impersonate legitimate devices or users.
   - [`Denial of Service (DoS)`](/README.md/#malware): Attackers can flood ANT devices with excessive traffic to disrupt communication or cause malfunctions.
+  - ANT devices are at risk of leaking sensitive health data and are not easily updated remotely.
