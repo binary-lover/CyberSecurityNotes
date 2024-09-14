@@ -64,4 +64,10 @@ File Type	File Extension	File Signature (Hexadecimal)	File Signature (ASCII)
     - ```bash
       strings <filename>
       ```
-      
+
+## Segnography
+
+- Hiding data in a unused area of a file or in a way that is not obvious.
+- Can be used to hide messages in images, audio files, etc.
+- Can be used to hide files in other files.
+
