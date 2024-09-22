@@ -71,3 +71,43 @@ File Type	File Extension	File Signature (Hexadecimal)	File Signature (ASCII)
 - Can be used to hide messages in images, audio files, etc.
 - Can be used to hide files in other files.
 
+### Tools
+- `steghide` is a tool that can be used to hide and extract data from files.
+    - ```bash
+      steghide embed -cf <cover_file> -ef <file_to_hide>
+      steghide extract -sf <stego_file>
+      ```
+- `stegsnow` is a tool that can be used to hide and extract data from files.
+    - ```bash
+      stegsnow -C <cover_file> -m <message>
+      stegsnow -C <stego_file>
+      ```
+- `zsteg` is a tool that can be used to detect hidden data in PNG and BMP files.
+    - ```bash
+      zsteg <filename>
+      ```
+
+## Memory Forensics
+- Memory forensics is the analysis of a computer's memory (RAM) to investigate an incident or to find evidence of malicious activity.
+- Memory forensics can be used to:
+    - Find running processes
+    - Find open network connections
+    - Find open files
+    - Find hidden processes
+    - Find hidden files
+    - Find malware
+    - Find rootkits
+    - Find evidence of an attack
+
+### Steps
+1. Acquire the memory image
+    - Use a tool like `LiME`, `FTK Imager`, `Magnet RAM Capture`, `Winpmem`, etc.
+    
+2. Analyze the memory image
+    - Analyze the image that you have acquired.
+    - Analyze for running processes, open network connections, open files, hidden processes, hidden files, malware, rootkits, etc.
+    - Use a tool like `Volatility`, `Rekall`, `Mandiant Redline`, etc.
+    
+#### Tools
+- `Volatility` is a tool that can be used to analyze memory images.
+    - [Volatility](./Volatility.md)
