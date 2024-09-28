@@ -260,17 +260,57 @@ ryption, you can use the following code:
 - CBC (Cipher Block Chaining)
 - Mode: Block
 - Security: Strong
-- Speed: Fast
+- Speed: Slow
 - Description: Each block of plaintext is XORed with the previous ciphertext block before encryption.
 
 #### Pros
 
-  
-- Random IV: A random initialization vector is used to encrypt the first block.
+- confidentiality + Authentication
 - Ideal for encrypting large amounts of data.
 
 
 #### Cons
 
-- Not so securre: Vulnerable to padding oracle attacks.
-- Not parallelizable: Each block depends on the previous block.
+- Slow: Encryption and decryption are sequential.
+- initialization vector (IV) must be known to both the sender and receiver.
+
+
+### PCBC
+
+- PCBC (Propagating Cipher Block Chaining)
+- Mode: Block
+- Security: Strong
+- Speed: Slow
+- Description: Each block of plaintext is XORed with the previous ciphertext block before encryption and the previous plaintext block after encryption.
+
+#### CBC Vs PCBC
+
+| CBC | PCBC |
+|-----|------|
+| Each block of plaintext is XORed with the previous ciphertext block before encryption. | Each block of plaintext is XORed with the previous ciphertext block before encryption and the previous plaintext block after encryption. |
+
+### CTR
+
+- CTR (Counter)
+- Mode: Stream
+- Security: Strong
+- Speed: Fast
+- Description: A block cipher is used to encrypt a counter value, and the resulting ciphertext is XORed with the plaintext to produce the ciphertext.
+
+#### Stream Vs Block Cipher
+
+| Stream Cipher | Block Cipher |
+|---------------|--------------|
+| Encrypts/Decrypts data one bit at a time. | Encrypts/Decrypts data in fixed-size blocks. |
+| Uses a key and an initialization vector (IV) to generate a keystream. | Uses a key to encrypt/decrypt the data. |
+| Ideal for encrypting large amounts of data. | Ideal for encrypting small amounts of data. |
+
+#### Pros
+
+- Fast: Encryption and decryption are parallelizable.
+- software and hardware implementations are efficient.
+- Preprocessing (you are ready with the counter value) 
+- Random access: You can encrypt/decrypt any block of data without having to process the entire message.
+- Provable security: CTR mode is provably secure if the underlying block cipher is secure.
+
+## Padding Oracle Attack
