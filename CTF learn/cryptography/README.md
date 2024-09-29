@@ -314,3 +314,28 @@ ryption, you can use the following code:
 - Provable security: CTR mode is provably secure if the underlying block cipher is secure.
 
 ## Padding Oracle Attack
+
+### What is a padding oracle attack?
+
+A padding oracle attack is a type of cryptographic attack that exploits the padding scheme used in a block cipher to decrypt ciphertext without knowing the encryption key. The attack works by sending modified ciphertext to a server and observing the server's response to determine if the padding is correct.
+
+### How does a padding oracle attack work?
+
+1. The attacker sends a modified ciphertext to the server.
+2. The server decrypts the ciphertext and checks the padding.
+3. If the padding is incorrect, the server returns an error message.
+4. The attacker uses the error message to determine if the padding is correct.
+5. The attacker repeats the process until the entire plaintext is decrypted.
+
+### How to prevent a padding oracle attack?
+
+1. Use authenticated encryption: Use a mode of operation that provides both confidentiality and authentication, such as GCM or CCM.
+2. Use a secure padding scheme: Use a padding scheme that is resistant to padding oracle attacks, such as PKCS#7 or ISO/IEC 7816-4.
+3. Implement secure error handling: Do not reveal information about the padding or decryption errors to the attacker.
+
+
+## RSA
+
+### What is RSA?
+
+RSA is a `public-key cryptosystem` that is widely used for secure communication and digital signatures. It is based on the difficulty of factoring large integers, which is why it is considered secure. RSA stands for `Rivest-Shamir-Adleman`, the three inventors of the algorithm.
