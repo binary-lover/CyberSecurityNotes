@@ -339,3 +339,37 @@ A padding oracle attack is a type of cryptographic attack that exploits the padd
 ### What is RSA?
 
 RSA is a `public-key cryptosystem` that is widely used for secure communication and digital signatures. It is based on the difficulty of factoring large integers, which is why it is considered secure. RSA stands for `Rivest-Shamir-Adleman`, the three inventors of the algorithm.
+
+### How does RSA work?
+
+1. Key generation: The first step in RSA is to generate a public and private key pair. The public key is used for encryption, and the private key is used for decryption.
+2. Encryption: To encrypt a message, the sender uses the recipient's public key to encrypt the message.
+3. Decryption: To decrypt the message, the recipient uses their private key to decrypt the message.
+
+### RSA Algorithm
+
+1. Choose two large prime numbers, p and q.
+2. Compute n = p * q.
+3. Compute φ(n) = (p - 1) * (q - 1).
+4. Choose an integer e such that 1 < e < φ(n) and gcd(e, φ(n)) = 1.
+5. Compute d such that d * e ≡ 1 (mod φ(n)).
+6. The public key is (n, e), and the private key is (n, d).
+
+### RSA Encryption
+
+- C = M^e mod n
+
+### RSA Decryption
+
+- M = C^d mod n
+
+### tech uses RSA
+
+- SSL/TLS (Secure Sockets Layer/Transport Layer Security)
+- PGP (Pretty Good Privacy)
+- SSH (Secure Shell)
+- IPsec 
+- HTTPS
+- Digital signatures 
+- Secure email 
+
