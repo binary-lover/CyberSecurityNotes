@@ -44,6 +44,8 @@ while(True):
     if choice == 1:
         print("1. Encrypt")
         print("2. Decrypt")
+        print("3. Brute force encrypt")
+        print("4. Brute force decrypt")
         choice = int(input("Enter your choice: "))
         if choice == 1:
             text = input("Enter text to encrypt: ")
@@ -53,6 +55,14 @@ while(True):
             text = input("Enter text to decrypt: ")
             shift = int(input("Enter shift: "))
             print("Decrypted text: ", ROTx.decrypt(text, shift))
+        elif choice == 3:
+            text = input("Enter text to encrypt: ")
+            rng = int(input("Enter range: "))
+            ROTx.brute_force_encrypt(text,rng)
+        elif choice == 4:
+            text = input("Enter text to decrypt: ")
+            rng = int(input("Enter range: "))
+            ROTx.brute_force_decrypt(text,rng)
         else:
             print("Invalid choice")
     elif choice == 2:

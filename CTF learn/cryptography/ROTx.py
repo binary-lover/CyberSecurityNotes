@@ -15,6 +15,14 @@ def encrypt(text, shift):
 def decrypt(text, shift):
     return encrypt(text, -shift)
 
+def brute_force_decrypt(text,rng):
+    for i in range(rng):
+        print("Rotate: ", i, "Decrypted text: ", decrypt(text, i))
+
+def brute_force_encrypt(text,rng):
+    for i in range(rng):
+        print("Rotate: ", i, "Encrypted text: ", encrypt(text, i))
+
 #  main program
 # while(True):
 #     print("1. Encrypt")
