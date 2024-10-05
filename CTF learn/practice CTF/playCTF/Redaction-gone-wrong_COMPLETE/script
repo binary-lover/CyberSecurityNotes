@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+pdftotext Financial_Report_for_ABC_Labs.pdf
+cat Financial_Report_for_ABC_Labs.txt | grep -oE "picoCTF{.*}"
+rm Financial_Report_for_ABC_Labs.txt
