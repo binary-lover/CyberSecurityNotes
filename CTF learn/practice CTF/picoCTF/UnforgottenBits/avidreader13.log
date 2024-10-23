@@ -1,0 +1,24 @@
+[08:12] <yone786> Ok, let me give you the keys for the light.
+[08:12] <avidreader13> I’m ready.
+[08:15] <yone786> First it’s steghide.
+[08:15] <yone786> Use password: akalibardzyratrundle
+[08:16] <avidreader13> Huh, is that a different language?
+[08:18] <yone786> Not really, don’t worry about it.
+[08:18] <yone786> The next is the encryption. Use openssl, AES, cbc.
+[08:19] <yone786> salt=0f3fa17eeacd53a9 key=58593a7522257f2a95cce9a68886ff78546784ad7db4473dbd91aecd9eefd508 iv=7a12fd4dc1898efcd997a1b9496e7591
+[08:19] <avidreader13> Damn! Ever heard of passphrases?
+[08:19] <yone786> Don’t trust em. I seed my crypto keys with uuids.
+[08:20] <avidreader13> Ok, I get it, you’re paranoid.
+[08:20] <avidreader13> But I have no idea if that would work.
+[08:21] <yone786> Haha, I’m not paranoid. I know you’re not a good hacker dude.
+[08:21] <avidreader13> Is there a better way?
+[08:22] * yone786 yawns.
+[08:24] <yone786> You’re ok at hacking. I’m good at writing code and using it
+[08:24] <avidreader13> What language are you writing in?
+[08:26] <yone786> C
+[08:26] <avidreader13> Oh, I see.
+[08:26] <yone786> I’m glad you like it. I’m sure you wouldn’t understand half of what I was doing.
+[08:28] <avidreader13> I understand enough, but I do wish you wouldn’t take so much time with it.
+[08:28] <yone786> Sorry. Well, I wish you could learn some things.
+[08:29] <avidreader13> But it’s an incredible amount of time you spend on it.
+[08:29] <yone786> Haha, don’t take it like that.

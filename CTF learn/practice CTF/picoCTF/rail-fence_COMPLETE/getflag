@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Run the Python script and capture the output
+output=$(python rainfence.py -c message.txt -d 4 2>&1)
+
+
+# Extract the flag directly using regex
+if [[ $output =~ The\ flag\ is:\ ([^ ]+) ]]; then
+    flag="${BASH_REMATCH[1]}"
+    echo "picoCTF{${flag}}"
+else
+    echo "Failed to find the flag in the output."
+fi
+

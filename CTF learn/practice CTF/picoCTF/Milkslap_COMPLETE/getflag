@@ -1,0 +1,1 @@
+zsteg concat_v.png| grep -oE 'picoCTF{[^}]+}' >flag.txt

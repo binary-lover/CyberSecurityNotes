@@ -1,0 +1,2 @@
+tr 'A-Za-z' 'N-ZA-Mn-z' < encrypted.txt > flag.txt
+
