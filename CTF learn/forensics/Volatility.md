@@ -22,3 +22,5 @@
 - The recommended way to install Volatility is to use the official GitHub repository.
 
 - To install Volatility, follow these steps:
+- or [click here](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/volatility-cheatsheet#volatility2)
+
