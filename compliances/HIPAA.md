@@ -31,3 +31,37 @@ HIPAA compliance is a legal requirement for covered entities and their business 
     - Notification must be sent without any unreasonable delay and no later than 60 days following the discovery of a breach.
     - Notification must be sent to affected individuals, the Secretary of Health and Human Services (HHS ), and in some cases, to the media.
 
+## Who Needs to comply?
+
+- **Covered Entities**: 
+    - Health plans
+    - Health care clearinghouses
+    - Health care providers who transmit any health information in electronic form in connection with a HIPAA transaction
+
+- **Business Associates**:
+    - A person or entity that performs certain functions or activities that involve the use or disclosure of protected health information on behalf of, or provides services to, a covered entity.
+
+## Implimentation of HIPAA Compliance
+
+A data Protection Management System (DPMS) is a framework of policies and procedures that includes administrative, physical, and technical safeguards to protect the privacy, confidentiality, integrity, and availability of sensitive information.
+
+### Elements of DPMS:
+
+* **Process**: 
+    - HIPAA risk
+    - security risk analysis
+    - HIPAA security assessment
+
+* **Compliance & infoSec Team**:
+    - InfoSec Team
+    - Security risk officer
+    - Privacy officer
+
+* **Training & Awareness**:
+    - HIPAA training
+    - Security awareness training
+
+* **HIPAA compliance software**:
+    - That can automate the process of HIPAA compliance
+
+![alt text](image.png)
