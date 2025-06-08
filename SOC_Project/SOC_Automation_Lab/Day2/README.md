@@ -1,5 +1,14 @@
 # Installing & configuring machines
 
+## Contents
+
+- [Installing & configuring machines](#installing--configuring-machines)
+  - [Installing windows 10 on Virtual Box](#installing-windows-10-on-virtual-box)
+  - [Download sysmon on windows 10 VM](#download-sysmon-on-windows-10-vm)
+  - [Installing Wazuh Server on Ubuntu 22.04](#installing-wazuh-server-on-ubuntu-2204)
+  - [Installing theHive on Ubuntu 22.04](#installing-thehive-on-ubuntu-2204)
+  
+
 ## Installing windows 10 on Virtual Box
 
 1. Download Virtual Box from [here](https://www.virtualbox.org/wiki/Downloads)
@@ -29,7 +38,7 @@ Note: We will be using Cloud (digital ocean) to install Wazuh server. You can us
 I am using my $200 credit from GitHub Education Pack to create a droplet on Digital Ocean.
 
 creating Droplet for wazuh server
-pass: `f1nd1fY0uc4n`
+pass: `****************`
 IP: `<wazuh-server-ip>`
 
 we ssh into that machine using 
@@ -63,7 +72,7 @@ After logging in, you will see the following dashboard:
 
 `Note`: We will be using another droplet on Digital Ocean to install TheHive. You can use any cloud provider or your local machine to install TheHive.
 for the time being, we will use the same credentials as the Wazuh server, which is 
-pass: `f1nd1fY0uc4n`
+pass: `****************`
 theHive IP: `<theHive-IP>`
 
 `Note`: For installing the hive we need to first install four components which are `Elasticsearch`, `Java`, `Cassandra`, and `TheHive`.

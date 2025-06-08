@@ -1,5 +1,14 @@
 # Configure the wazuh server and thehive
 
+## Contents
+
+* [thehive](#thehive)
+  * [Setup cassandra](#setup-cassandra)
+  * [Setup elasticsearch](#setup-elasticsearch)
+  * [Setup thehive](#setup-thehive)
+  * [Fixing thehive issues](#fixing-thehive-issues)
+* [Wazuh](#wazuh)
+
 ## thehive 
 
 ### Setup cassandra
